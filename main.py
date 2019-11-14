@@ -16,7 +16,6 @@ def main():
 #end of config variables
 
 #import Audio
-#import Audio
     if len(sys.argv)>1:
         audioclipname = sys.argv[1]
         audioclip = AudioFileClip(audioclipname)
