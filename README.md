@@ -1,6 +1,6 @@
 ## What is "AudioSpectrum"
 
-**Audiospectrum ** program that uses libraries such as **moviepy **to create a video with a background,text and audio which can be provided by the user. 
+**Audiospectrum** program that uses libraries such as **moviepy** o create a video with a background,text and audio which can be provided by the user. 
 
 The program starts by importing audio from the user, the name of the audio file can be provided with the first argument of the program when running through the command line. It then generates a background from a jpg file which the user can provide by replacing the sample background image named Background.jpg. The program turns the background image into an **Imageclip** which is a function of the **moviepy** that allows the user to convert images into video. The **Imageclip** object is then added to an array named **clips** which will be used to combine every aspect of the video at the end of the program.
 
